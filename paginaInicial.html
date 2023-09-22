@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-</head>
-<body>
-    <div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Inicial</title>
+    </head>
+    <body>
         <header>
-            <div>
+            <div>                
+                <img src="./img/logo.png"> 
                 <nav>
-                    <img src="./img/logo.png">
-                </nav>
-            </div>
-        <div>
-                <input type="button" value="Criar Conta">
-                <input type="button" value="Login">
-            </div>
-            <div>
-                <nav>
+                    <label for="Criar"></label>
+                    <input type="button" value="Criar Conta">
+                    <label for="Login"></label>
+                    <input type="button" value="Login">
                     <label for="Listar Estacionamentos"> </label>
                     <input type="button" value="Listar Estacionamento">
                     <label for="Sobre Nós"></label>
@@ -27,38 +22,34 @@
             </div>
         </header>
         <main>
-            <div>
-                <nav>
+            <section>
+                <div>                   
                     <h1>Encontre o estacionamento mais próximo 
-                        do seu desntino com o Delivery Estacionamentos</h1>
-                </nav>        
-            </div>
+                        do seu desntino com o Delivery Estacionamentos</h1>        
+                   <nav>
+                        <input type="search" name="pesquisar" id="pesquisar" placeholder=  "Qual seu destino ?" >
+                        <input type="button" value="Ir">
+                    </nav>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <section>
             <div>
                 <nav>
-                    <input type="search" name="pesquisar" id="pesquisar" placeholder=  "Qual seu destino ?" >
-                    <input type="button" value="Ir">
-                </nav>
+                    <label for="Fale conosco"> </label>
+                    <input type="button" value="Fale conosco">
+                </nav>    
+                    <h5>
+                        O Delivery Estacionamento é um projeto com desenvolvimento em HTML. 
+                    </h5>
+                    <h6>
+                        Criado pela equipe 04, do projeto integrador da Proz. 
+                            Formado por Erick, Hellen, João, Emilio e Felipe.
+                    </h6>
+                
             </div>
-        </main>
-    </div>
-</body>
-<footer>
-    <div>
-        <nav>
-            <label for="Fale conosco"> </label>
-            <input type="button" value="Fale conosco">
-        </nav>    
-    </div>
-    <div>
-        <nav>
-            <h5>
-                O Delivery Estacionamento é um projeto com desenvolvimento em HTML. 
-            </h5>
-            <h6>
-                Criado pela equipe 04, do projeto integrador da Proz. 
-                    Formado por Erick, Hellen, João, Emilio e Felipe.
-            </h6>
-        </nav>
-    </div>    
-</footer>       
+        </section>    
+    </footer>       
 </html>
