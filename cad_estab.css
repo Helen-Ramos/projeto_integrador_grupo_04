@@ -1,19 +1,1 @@
-div #img, #form{
-    width: 100px;
-    height: 100px;
-    display:inline-flex;   
-   
 
-} 
-
-h1{
-    text-align: center;
-    color: brown;
-}
-body{
-    background: rgb(211, 219, 236);
-}
-footer{
-    text-align: center;
-    color: brown;
-}
