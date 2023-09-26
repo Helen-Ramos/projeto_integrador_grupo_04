@@ -9,9 +9,9 @@ https://www.figma.com/file/r35PFe4RXbLkeBj7kHn6aq/Untitled?type=design&node-id=0
 Atividades descutidas na reunião.
 </h1> 
 <h2>
-    Data 25/09/2023
-    Dia e horário dos encontros segunda, quarta e sexta as 20hs
-    Renomear arquivos .html com indentificação.
-    Linkar os aquivos.
+    Data 25/09/2023.<br>
+    Dia e horário dos encontros segunda, quarta e sexta as 20hs.<br>
+    Renomear arquivos .html com indentificação.<br>
+    Linkar os aquivos.<br>
 </h2>
 
