@@ -16,6 +16,13 @@ Atividades descutidas no encontro.
 </h2>
 --------------------------------
 <h2>
-    Proxima data?
+    Data 27/02/2023.<br>
+    João e Helen compareceu no encontro de hoje. Era para finalizar o HTML para a entrega da Sprint II.
+    Foi feita a entrega do link do github na plataforma da Joy.
+</h2>
+--------------------------------
+<h2>
+    Proxima data, 29/09/2023.<br>
+    Definir CSS para entrega da Sprint III.
 </h2>
 
