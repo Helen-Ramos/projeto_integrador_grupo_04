@@ -23,6 +23,6 @@ Atividades descutidas no encontro.
 --------------------------------
 <h2>
     Proxima data, 29/09/2023.<br>
-    Definir CSS para entrega da Sprint III.
+    Conforme acordado em grupo, aprofundar e aplicar os conhecimentos em CSS e HTML no projeto para apresentação interna prevista para data do dia 02/10.
 </h2>
 
