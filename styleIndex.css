@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:cadetblue;
+}
+#botoes_direita{
+    display: flex;
+    gap: 0.5rem;
+    margin: 2rem;
+
+}
+#botoes_centro{
+    display: flex;
+    gap: 3rem;    
+}
+
+body{
+    
+    background-image: url(./img/background-index.png);
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 10rem 5rem 10rem 5rem ;
+}
+
+#input_central_main{
+    display: flex;
+    gap: 2px;
+}
+#pesquisar{
+    display: flex;
+    width: 50rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;   
+    align-items: center;
+    background-color: cadetblue;
+    
+}
