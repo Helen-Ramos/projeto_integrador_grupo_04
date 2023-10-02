@@ -25,4 +25,9 @@ Atividades descutidas no encontro.
     Proxima data, 29/09/2023.<br>
     Conforme acordado em grupo, aprofundar e aplicar os conhecimentos em CSS e HTML no projeto para apresentação interna prevista para data do dia 02/10.
 </h2>
-
+--------------------------------
+<h2>Data 02/10/2023.<br>
+    Criar uma página modelo para apresentar na próxima quarta-feira, para definirmos o padrão a ser seguido.
+    Com HTML e CSS. E assim que for definido, cada um fazer sua página em cima desta.
+    Erick, João, Helen.  
+</h2>
