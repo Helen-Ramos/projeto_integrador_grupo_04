@@ -1,8 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/background-index.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:cadetblue;
+    overflow: hidden;
+    
 }
 #botoes_direita{
     display: flex;
@@ -15,11 +26,6 @@ header{
     gap: 3rem;    
 }
 
-body{
-    
-    background-image: url(./img/background-index.png);
-    
-}
 
 main{
     display: flex;
@@ -42,5 +48,24 @@ footer{
     flex-direction: row-reverse;   
     align-items: center;
     background-color: cadetblue;
-    
+    /* margin: 10rem; */
+}
+
+#input_footer{
+    margin: 0em 2em 4em 1em;
+    padding: 0%;
+}
+#texto_footer{
+    margin: 15px;
+}
+
+.bnt-listar-estacionamento{
+    border: 1px solid transparent;
+    width: auto;
+    text-align: center;
+}
+.bnt-sobre{
+    border: 1px solid transparent;
+    width: auto;
+    text-align: center;
 }
