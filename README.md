@@ -31,3 +31,15 @@ Atividades descutidas no encontro.
     Com HTML e CSS. E assim que for definido, cada um fazer sua página em cima desta.
     Erick, João, Helen.  
 </h2>
+--------------------------------
+<h2>Data 04/10/2023<br>
+    Apresentação das páginas HTML, estilizadas com CSS, para escolha do padrão.
+</h2>
+--------------------------------
+<h2>Data 06/10/2023<br>
+    Reunião com o Prof. Luciano com o feedback referente a entrega da Sprint II.
+</h2>
+--------------------------------
+<h2>Próximo encontro, segunda-feira 09/10/23<br>
+Reestruturação do HTML e CSS, onde iremos fazer a página index.html com a estilização definida para que todas as outras sigam este padrão.
+</h2>
