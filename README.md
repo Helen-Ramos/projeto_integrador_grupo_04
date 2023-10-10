@@ -43,3 +43,11 @@ Atividades descutidas no encontro.
 <h2>Próximo encontro, segunda-feira 09/10/23<br>
 Reestruturação do HTML e CSS, onde iremos fazer a página index.html com a estilização definida para que todas as outras sigam este padrão.
 </h2>
+--------------------------------
+<h2>Data 09/10/2023<br>
+Construção da página modelo HTML e CSS:<br>
+-definição das tags do HTML;<br>
+-definição do layout do header da CSS;<br>
+Para o próximo encontro dia 11/10/23 definição da main com HTML e CSS.</h2>
+
+
