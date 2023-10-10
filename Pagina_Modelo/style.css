@@ -46,7 +46,8 @@ main{
 }
 
 footer{
-    background-color:rgb(0, 128, 128);
+    background-color:rgba(0, 128, 128);
+    color: white;
     margin-top: 50px;
     text-align: center;
 }
