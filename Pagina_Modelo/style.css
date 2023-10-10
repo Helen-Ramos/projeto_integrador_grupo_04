@@ -18,6 +18,8 @@ header{
 }
 
 header ul li a{
+    font-size: 25px;
+    font-weight: bold;    
     margin-right: 10px;
     text-decoration: none;
     color: rgb(223, 99, 99);
@@ -26,7 +28,7 @@ header ul li a{
     padding: 3px;
 }
 header ul li {
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 a:hover{
