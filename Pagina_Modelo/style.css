@@ -22,10 +22,10 @@ header ul li a{
     font-weight: bold;    
     margin-right: 10px;
     text-decoration: none;
-    color: rgb(223, 99, 99);
+    color: white;
     border: solid 1.5px mediumspringgreen;
     border-radius: 12px;
-    padding: 3px;
+    padding: 8px;
 }
 header ul li {
     list-style-type: none;
@@ -34,9 +34,9 @@ header ul li {
 a:hover{
     background-color: rgb(30, 189, 210);
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
-    color: bisque;
+    color: mediumblue;
 }
 
 
