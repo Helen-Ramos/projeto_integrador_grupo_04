@@ -42,11 +42,11 @@ a:hover{
 
 main{
     margin-bottom: 100px;
-    background-color: rgba(50, 25, 25, 0.36);
+    background-color: rgba(196, 255, 240, 0.842);
 }
 
 footer{
-    background-color: rgba(70, 39, 39, 0.252);
+    background-color:rgb(0, 128, 128);
     margin-top: 50px;
     text-align: center;
 }
