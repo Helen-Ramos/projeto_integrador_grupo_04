@@ -6,7 +6,7 @@ https://docs.google.com/document/d/1xyiUSjy6FVtYAWQ3diy8W-yp1oR_epqd/edit?usp=sh
 #Layouts Figma
 https://www.figma.com/file/r35PFe4RXbLkeBj7kHn6aq/Untitled?type=design&node-id=0-1&mode=design&t=6FEty3wbXMPulsng-0
 <h1>
-Atividades descutidas no encontro.
+Atividades discutidas no encontro.
 </h1> 
 <h2>
     Data 25/09/2023.<br>
@@ -49,5 +49,14 @@ Construção da página modelo HTML e CSS:<br>
 -definição das tags do HTML;<br>
 -definição do layout do header da CSS;<br>
 Para o próximo encontro dia 11/10/23 definição da main com HTML e CSS.</h2>
+---------------------------------
+<h2>Data 11/10/2023<br>
+Encontro com a participação do João, Helen e Felipe. Conversamos sobre o projeto, mas não avançamos.</h2>
+---------------------------------
+<h2>Data 13/10/2023<br>
+No encontro de hoje, João, Helen e Felipe. Apenas conversammos sobre os próximos passos.<br>
+Iremos comunicar aos participantes que no próximo encontro do dia 16/10/23, apresentar sua página<br>
+com conteudo já com o padrão definido.<br>
+
 
 
