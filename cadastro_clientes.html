@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="#">
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Pagina Modelo</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: none;
+            font-family: Roboto, Times New Roman;
+        }
+
+        header {
+            display: flex;
+            margin-bottom: 100px;
+            background-color: rgb(0, 128, 128);
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+
+        }
+
+        header ul li a {
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 10px;
+            text-decoration: none;
+            color: white;
+            border: solid 1.5px mediumspringgreen;
+            border-radius: 12px;
+            padding: 8px;
+        }
+
+        header ul li {
+            list-style-type: none;
+        }
+
+        a:hover {
+            background-color: rgb(30, 189, 210);
+            border-radius: 10px;
+            padding: 10px;
+            font-weight: bold;
+            color: mediumblue;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                margin-bottom: 30px;
+            }
+
+            header ul li a {
+                font-size: 20px;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        /* Consultas de mídia adicionais para outros tamanhos de tela, se necessário */
+        @media (max-width: 480px) {
+            /* Adicione estilos para telas ainda menores, se necessário */
+        }
+
+
+        main {
+            margin-bottom: 100px;
+            background-color: rgba(196, 255, 240, 0.842);
+        }
+
+        footer {
+            background-color: rgba(0, 128, 128);
+            color: white;
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.png" alt="logo_estacionamento_delivery" />
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <a href="#">Estacionamentos</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Login</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <main>
+        <div class="titulo">
+            <h1>Cadastro de Clientes</h1>
+            <p>Complete seus dados e pare de rodar!</p>
+        </div>
+
+        <form action="">
+            <fieldset>
+                <div class="google">
+                    <img id="google" src="img/image 1.png" alt="logo google">
+                    <input type="text" name="nome" id="nome"   placeholder="Fazer login com o Google">
+            
+                  </div>
+            
+                  <div class="face">
+                    <img id="face" src="img/Rectangle 1.png" width="15" height="15" alt="logo facebook">
+                    <input type="text" placeholder="Fazer login com o face">
+                  </div>
+            
+                  <div class="twiter">
+                    <img id="twiter" src="img/image 2.png" alt="logo twitter">
+                    <input type="text" placeholder="Fazer login com o Twitter">
+                  </div>
+                  
+                  <div class="email">
+                    <img src="img/Vector.png" alt="">
+                    <input type="email" placeholder="Digite seu email" required>           
+                  </div>
+
+                  <div class="senha">
+                    <img src="img/Vector-1.png" alt="">
+                    <input type="password" placeholder="Digite sua senha" required>
+                    <p>Esqueceu sua senha? Clique <a href="#">aqui.</a></p>
+                  </div>
+                       
+            </fieldset>
+        </form>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p>Estacione com a gente e pare melhor!</p>
+    </footer>
+
+</html>
