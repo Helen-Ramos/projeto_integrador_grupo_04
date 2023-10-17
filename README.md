@@ -60,7 +60,7 @@ com conteudo já com o padrão definido.<br>
 ---------------------------------
 <h2>Data 16/10/2023<br>
 Hoje definimos 100% o Header e o Footer. Iremos finalizar o CSS para no próximo encontro, 18/10/23.<br>
-Erick, João, Helen, Emilio.<br>
+Erick, João, Helen, Emilio..<br>
 
 
 
