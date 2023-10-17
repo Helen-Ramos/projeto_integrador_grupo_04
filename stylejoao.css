@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, Times New Roman;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+}
+
+header {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: rgb(0, 128, 128);
+  justify-content: space-between;
+  align-items: center;
+  /*background: repeating-radial-gradient(circle, rgb(81, 50, 50) 0%, rgb(129, 129, 72) 20%);*/
+  background-color: rgba(0, 128, 128);
+}
+
+header ul li a {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  border: solid 1.5px mediumspringgreen;
+  border-radius: 12px;
+  padding: 8px;
+}
+header ul li {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: rgb(30, 189, 210);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: mediumblue;
+}
+
+main {
+  width: 1250px;
+  background-color: rgba(65, 111, 88, 0.632);
+  margin: auto;
+  border-radius: 16px;
+  background-image: url(./img/background-indextra.png);
+  
+}
+
+.section1 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+
+
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 300px;
+  box-shadow: 8px 4px 8px #f9c6518f;
+}
+
+
+
+
+.section2 {
+  display: flex;
+  height: 550px;
+  margin-top: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  margin-left: 450px;
+}
+
+.section2 aside article p{
+  color: rgb(255, 255, 255);
+  margin-right: 50%;
+  border: 8px solid rgb(228, 32, 32);
+
+}
+
+form{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+  color: bisque;
+}
+label {
+  color: rgb(255, 255, 255);
+  margin-bottom: 4px;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: 21px;
+  border-radius: 6px;
+  background-color: rgba(193, 135, 64, 0.606);
+  
+}
+
+.section2 button {
+  font-size: 15px;
+  border-radius: 30px;
+  color: rgb(226, 134, 23);
+  height: 40px;
+  width: 70px;
+  border: solid 2px rgb(250, 0, 0);
+  margin-left: 40%;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+footer {
+  display: flex;
+  background-color: rgba(0, 128, 128);
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding: 100px;
+  border-radius: 15px;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+
+footer .footer{
+  border: 4px solid #fc3232;
+  width: 150px;
+  height: 40px;
+  
+}
+
