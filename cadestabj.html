@@ -1,64 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Pagina Modelo</title>
+    <link rel="stylesheet" href="./css/stylejoao.css" />
+    <title>Projeto Integrador G-04</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <style>
+        
+      </style>
       <img src="./img/logo.png" alt="logo_estacionamento_delivery" />
-      <ul>
-        <li>
-          <a href="#">Home</a>
-          <a href="#">Estacionamentos</a>
-          <a href="#">Sobre Nós</a>
-          <a href="#">Criar Conta</a>
-          <a href="#">Login</a>
-        </li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+            <a href="#">Estacionamentos</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Criar Conta</a>
+            <a href="#">Criar Conta</a>
+            <a href="#">Login</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <main class="linha">
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14881.406856153715!2d-47.81063267244261!3d-21.178182692879382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9befb67192dc3%3A0x699e0737f2932254!2sCentro%2C%20Ribeir%C3%A3o%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1697324589633!5m2!1spt-BR!2sbr"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+		<p class="text">
+			O estacionamento é um instrumento fundamental das políticas urbanas e de mobilidade que apresenta uma enorme complexidade devido às diferentes dinâmicas associadas quer à sua localização (em diferentes sectores e áreas urbanas das cidades, de usos diferenciados - zonas comerciais e de serviços, zonas residenciais).
 
-    <main>
-      <section class="section1">
-        <div class="mapa">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14881.406856153715!2d-47.81063267244261!3d-21.178182692879382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9befb67192dc3%3A0x699e0737f2932254!2sCentro%2C%20Ribeir%C3%A3o%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1697324589633!5m2!1spt-BR!2sbr"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <!-- <div class="art1">
-          <article class="artsect1">
-            <p>
-              O estacionamento é um instrumento fundamental das políticas
-              urbanas e de mobilidade que apresenta uma enorme complexidade
-              devido às diferentes dinâmicas associadas quer à sua localização
-              (em diferentes sectores e áreas urbanas das cidades, de usos
-              diferenciados - zonas comerciais e de serviços, zonas
-              residenciais). Esta diversidade de situações implica a necessidade
-              de implementação de políticas diferenciadas de estacionamento. O
-              estacionamento é uma componente fundamental de qualquer política
-              de mobilidade devido à sua relação direta com a acessibilidade, a
-              utilização do espaço público e principalmente, enquanto elemento
-              regulador desempenha, igualmente, um papel importante na qualidade
-              ambiental, uma vez que permite induzir comportamentos mais
-              sustentáveis.
-            </p>
-          </article>
-        </div> -->
-      </section>
-      <section class="section2">
-        <div>
+			Esta diversidade de situações implica a necessidade de implementação de políticas diferenciadas de estacionamento.
+			
+			O estacionamento é uma componente fundamental de qualquer política de mobilidade devido à sua relação direta com a acessibilidade, a utilização do espaço público e principalmente, enquanto elemento regulador desempenha, igualmente, um papel importante na qualidade ambiental, uma vez que permite induzir comportamentos mais sustentáveis.
+		  </p>
+      </div>
+      <div class="coluna meio">
+        <div class="form">
           <h2>Formulário de Cadastro</h2>
           <form action=""></form>
           <label for="nome">Digite o nome da empresa: *</label>
@@ -82,23 +70,44 @@
               <option value="ceara">Ceará</option>
               <option value="pernambuco">Pernambuco</option>
               <option value="baiha">Bahia</option>
-              <option value="minasgerais">Minas Gerais</option>
-            </select>
+              <option value="minasgerais">Minas Gerais</option></select
+            ><br />
             <button>Enviar</button>
           </p>
         </div>
-
-        <aside>
-          <article>
-            <p>Obs: *</p>
-            <p>Aqui vai um Aside para links externos.</p>
-          </article>
-        </aside>
-      </section>
+      </div>
+      <aside class="coluna aside">
+        <div>
+          <section class="galeria">
+            <div class="fotos">
+              <img src="./img/1.png" alt="image1">
+              <img src="./img/2.png" alt="image2">
+              <img src="./img/3.png" alt="image3">
+              <img src="./img/4.png" alt="image4">
+              <img src="./img/1.png" alt="image1">
+            </div>
+          </section>
+          <div class="banner">
+            <p>Banner Publicitário 1</p>
+          </div>
+          <div class="banner">
+            <p>Banner Publicitário 2</p>
+          </div>
+          <div class="banner">
+            <p>Banner Publicitário 3</p>
+          </div>
+          <div class="banner">
+            <p>Banner Publicitário 4</p>
+          </div>
+          <div class="banner">
+            <p>Banner Publicitário 5</p>
+          </div>
+      </aside>
     </main>
 
-    <footer>
-      <div>
+    <footer class="footer">
+      <img src="./img/background-index.png" alt="image" />
+      <div class="footer-text">
         <p>
           O Delivery Estacionamento é um projeto com desenvolvimento em HTML e
           CSS.
@@ -107,14 +116,6 @@
           Criado pela equipe 04, do projeto integrador da Proz. Formado por
           Erick, Helen, João.
         </p>
-      </div>
-      <div>
-        <aside class="footer">
-          <article>
-            <p>Outro Aside.</p>
-            <p>www.google.com</p>
-          </article>
-        </aside>
       </div>
     </footer>
   </body>
