@@ -65,6 +65,7 @@ header ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 20PX;
 }
 
 .form {
@@ -208,10 +209,29 @@ a.facebook .facebook-icon{
     justify-content: center;
 }
 
-.facebook-icon{
+.facebook-icon,
+img.google-img{
     position: absolute;
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
 }
+
+img.google-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+a.google{
+    border: 1px solid #cacaca;
+}
+
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: #000;
+}
+
+
 
