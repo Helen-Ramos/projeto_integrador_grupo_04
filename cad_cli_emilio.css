@@ -200,7 +200,7 @@ a.facebook .facebook-icon{
     height: 28px;  
     width: 28px;
     color: #4267b2;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -214,3 +214,4 @@ a.facebook .facebook-icon{
     left: 15px;
     transform: translateY(-50%);
 }
+
