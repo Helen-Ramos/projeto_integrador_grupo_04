@@ -14,7 +14,7 @@ body {
   margin-bottom: px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 128, 128);
+  /* background-color: rgba(0, 128, 128); */
   background-image: url(./img/3.png);
   background-repeat: no-repeat;
 }
