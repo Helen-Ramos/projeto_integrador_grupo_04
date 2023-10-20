@@ -8,15 +8,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .header {
   width: auto;
   display: flex;
   margin-bottom: px;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgba(0, 128, 128); */
+  border-bottom: solid 2px black;
   background-image: url(../img/3.png);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  
+  backdrop-filter: ;
+
 }
 
 header ul li a {
@@ -58,7 +63,7 @@ a:hover {
 }
 
 .galeria .fotos img {
-  width: 19.9%;
+  width: 19.8%;
 }
 
 @keyframes animacao {
@@ -108,8 +113,16 @@ iframe {
   border: solid 10px black;
   box-shadow: 3px 3px 8px rgb(31, 31, 30);
   border-radius: 19px;
+  margin-top: 10px;
   
 }
+
+.text{
+  position: sticky;
+  top: 20px;
+  margin-top: 10px;
+}
+
 
 .coluna {
   padding: 10px;
@@ -189,14 +202,6 @@ aside div {
   top: 10px;
 }
 
-
-.text{
-  position: sticky;
-  top: 20px;
-}
-
-
-
 footer {
   display: flex;
   justify-content: space-between;
@@ -204,6 +209,7 @@ footer {
   height: 100px;
   background-color: rgba(0, 128, 128);
   align-items: center;
+  border-top: solid 2px black;
 }
 
 footer img {
