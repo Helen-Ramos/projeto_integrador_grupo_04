@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="lista_estab_f.css">
     
     <img src="img/logo.png">
-    <h1> Lista de estabelecimentos</h1>
+    <h1> Lista de Estacionamentos</h1>
     <nav>
-    
         <ul class="menuhorizontal">
-            <li><a href="#" title="Sobre"</a>Sobre</li>
-            <li><a href="#" title="Cadastro"</a>Cadastro</li>
-            <li><a href="#" title="Fale Conosco"</a>Fale Conosco</li>
-            <li><a href="#" title="Sair"</a>Sair</li>
-    
+            <input type="button" value="Cadastro">
+            <input type="button" value="Sobre Nós">
+            <input type="button" value="Fale Conosco">
+            <input type="button" value="Cadastro">
         </ul>
         </nav>
         <div class="botao">
@@ -29,19 +27,30 @@
         </form>
 </header>
 <body>
+    <div class="box-busca">
+        <div class="search-box">
+            
+            <form method="post" action="#">
+                <input type="text" class="search-box-input" name="busca" placeholder="Busque o Estacionamento mais próximo">
+                <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+            
+            </form>
+            
+        </div><!-- Search -->
+    
+    </div><!--Box Busca-->
+    <div class="mapa">
+    <aside>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14635.587016310441!2d-46.79275540367424!3d-23.500228022933516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sesttacionamentos!5e0!3m2!1spt-BR!2sbr!4v1697920754875!5m2!1spt-BR!2sbr" width="1150" height="450" style="border:300;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form method="post"></form>
+    </aside>
+    </div>
+    <div>
+        <table>
 
-    <div>
-        <label>
-            <form>
-            <input type="text" placeholder="Digite o endereço">
-            <button type="submit">Pesquisar</button>
-            </form>  
-        </label>
-    </div>
-    <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d65915.42125240772!2d-46.81769511842027!3d-23.51278155332881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sestacionamento%20na%20rua!5e0!3m2!1spt-BR!2sbr!4v1695699491482!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <fo method="post"></form>
-    </div>
+        </table>
+     </div>
+</ul>
 </body>
 <footer>
     <div class="contatos-footer">
