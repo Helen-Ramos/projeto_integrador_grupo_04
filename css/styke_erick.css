@@ -90,6 +90,10 @@ a:hover{
   header ul li {
     list-style-type: none;
   }
+
+  #bnt-entrar{
+    display: none;
+  }
   
   a:hover {
     background-color: rgb(30, 189, 210);
