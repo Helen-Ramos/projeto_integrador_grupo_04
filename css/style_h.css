@@ -42,10 +42,14 @@ a:hover{
     color: rgb(255, 255, 255);
 }
 
+#btn-home{
+    display: none;
+}
+
 main{
     margin-top: 0px;
-    margin-bottom: 120px ;
-    background-color: #c4fff0d7;
+    margin-bottom: 0px ;
+    background-color: #aaa;
 }
 
 .sec1{
