@@ -34,6 +34,10 @@ header ul li a {
 
 }
 
+#cadestab{
+  display: none;
+}
+
 header ul li {
   list-style-type: none;
 }
@@ -211,6 +215,7 @@ footer {
   background-color: rgba(0, 128, 128);
   align-items: center;
   border-top: solid 2px black;
+  
 }
 
 footer img {
@@ -223,6 +228,6 @@ footer img {
   margin-top: 10px;
   text-align: center;
   color: rgb(255, 255, 255);
-  margin-right: 350px;
+  margin-right: 350px;  
 }
 
