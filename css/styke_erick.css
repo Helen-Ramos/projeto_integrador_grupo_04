@@ -47,8 +47,7 @@ main{
    display: flex;
    justify-content: center;
    padding-top: 10rem;
-   padding-bottom: 15rem;
-   
+   padding-bottom: 20rem;
    background-color: #aaa;
 }
 
