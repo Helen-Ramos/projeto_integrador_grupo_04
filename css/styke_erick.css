@@ -10,59 +10,6 @@ body{
     background-color: none;
 }
 
-/* header{
-    display: flex;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgb(0, 128, 128);
-    background-image: url(../img/icone-para-header-teste.png);
-    background-repeat: no-repeat;
-    background-position: 20%;
-    background-size: 10%;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-
-
-header ul {
-    display: flex;
-    gap: 1rem;
-    list-style-type: none;
-    align-items: center;
-}
-
-header ul li a{
-    font-size: 25px;
-    font-weight: bold;    
-    margin-right: 10px;
-    text-decoration: none;
-    color: white;
-    border: solid 1.5px mediumspringgreen;
-    border-radius: 12px;
-    padding: 8px;
-}
-
-#bnt-entrar{
-    background-color:darkturquoise; 
-    padding: 8px;
-    border-radius: 12px;
-    border: solid 1.5px mediumspringgreen;
-    border-radius: 8px;
-
-} 
-
-a:hover{
-    background-color: rgb(30, 189, 210);
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
-    color: mediumblue;
-} */
-
-
 .header {
     width: auto;
     display: flex;
