@@ -4,12 +4,6 @@
     font-family: Roboto, Times New Roman;
 }
 
-body{
-    background-image: url(../img/background-index.png);
-    background-size:cover;
-    background-color: none;
-}
-
 .header {
     width: auto;
     display: flex;
@@ -18,39 +12,35 @@ body{
     border-bottom: solid 2px black;
     background-image: url(../img/3.png);
   
-  }
-  
-  
-  header ul li a {
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 10px;
-    text-decoration: none;
-    color: rgb(158, 245, 193);
-    border: solid 1.5px mediumspringgreen;
-    border-radius: 12px;
-    padding: 8px;
-    background-color: rgba(0, 128, 128);
-  
-  }
-  
-  header ul li {
-    list-style-type: none;
-  }
+}
 
-  #bnt-home{
+header ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(158, 245, 193);
+  border: solid 1.5px mediumspringgreen;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: rgba(0, 128, 128);
+
+}
+
+header ul li {
+  list-style-type: none;
+}
+#bnt-home{
     display: none;
-  }
-  
-  a:hover {
-    background-color: rgb(30, 189, 210);
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-  }
-  
+}
 
+a:hover {
+  background-color: rgb(30, 189, 210);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
 
 
 main{
@@ -105,26 +95,25 @@ main section{
 
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    height: 100px;
-    background-color: rgba(0, 128, 128);
-    align-items: center;
-    border-top: solid 2px black;
-  }
-  
-  footer img {
-    width: 100px;
-    height: 80%;
-    opacity: 30%;
-  }
-  
-  .footer-text p{
-    margin-top: 10px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin-right: 700px;
-  }
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 100px;
+  background-color: rgba(0, 128, 128);
+  align-items: center;
+  border-top: solid 2px black;
+}
 
+footer img {
+  width: 100px;
+  height: 80%;
+  opacity: 30%;
+}
+
+.footer-text p{
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-right: 700px;
+}
 
