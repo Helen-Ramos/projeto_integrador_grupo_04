@@ -41,10 +41,9 @@ nav li {
     position: relative;
 }
 main{
-    margin-bottom: 100px;
-    background-color: rgba(196, 255, 240, 0.842);
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 5rem 10rem 5rem ;
 }
 
 footer{
