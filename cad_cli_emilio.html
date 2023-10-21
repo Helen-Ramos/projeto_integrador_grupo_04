@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" href="#">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="cad_cli_emilio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="#" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style_emilio.css" />
     <title>Cadastre-se</title>
-    
-</head>
+  </head>
 
-<body>
-    <!-- <header class="lista">
-        <img class="logo" src="./img/logo.png" alt="logo_estacionamento_delivery" />
-
-        <ul >
-            <li>
-                <a href="#">Home</a>
-                <a href="#">Estacionamentos</a>
-                <a href="#">Sobre Nós</a>
-            </li>
-        </ul>
-    </header> -->
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="logo_estacionamento_delivery" />
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+          <a id="btn-home" href="sobre_h.html">Sobre Nós</a>
+          <a href="#">Lista Estacionamentos</a>
+          <!-- <a href="#">Cadastro Cliente</a> -->
+          <a href="cadestab_j.html">Cadastro Estabelecimentos</a>
+          <a href="log_cli_emilio.html">Login</a>
+        </li>
+      </ul>
+    </header>
 
     <main>
-
-        <section class="container forms">
-            <!-- <div class="form login">
+      <section class="container forms">
+        <!-- <div class="form login">
 
                 <div class="form-content">
 
@@ -75,69 +80,75 @@
                         <span>Login com Google</span>
                     </a>
                 </div> -->
-            <!-- </div> -->
+        <!-- </div> -->
 
-            <!-- Formulario Cadastre-se -->
+        <!-- Formulario Cadastre-se -->
 
-            <div class="form cadastro">
-                                
-                <div class="form-content">
-                
-                    <header>Cadastre-se</header>
+        <div class="form cadastro">
+          <div class="form-content">
+            <h1>Cadastre-se</h1>
 
-                    <form action="#">
-                        <div class="field input-field">
-                            <input type="email" placeholder="Email" class="input" required>
-                        </div>
+            <form action="#">
+              <div class="field input-field">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="input"
+                  required
+                />
+              </div>
 
-                        <div class="field input-field">
-                            <input type="password" placeholder="Senha" class="password">
-                            <i class='bx bx-hide eye-icon'></i>
-                        </div>
-                        
-                        <div class="field input-field">
-                            <input type="password" placeholder="Confirme Senha" class="password">
-                            <i class='bx bx-hide eye-icon'></i>
-                        </div>
+              <div class="field input-field">
+                <input type="password" placeholder="Senha" class="password" />
+                <i class="bx bx-hide eye-icon"></i>
+              </div>
 
-                        <div class="field button-field">
-                            <button>Cadastre-se</button>
-                        </div>
+              <div class="field input-field">
+                <input
+                  type="password"
+                  placeholder="Confirme Senha"
+                  class="password"
+                />
+                <i class="bx bx-hide eye-icon"></i>
+              </div>
 
-                        <div class="form-link">
-                            <span>Já tem uma conta? <a href="log_cli_emilio.html" class="signup-link">Login</a></span>
-                        </div>
-                    </form>            
-                 </div>
+              <div class="field button-field">
+                <button>Cadastre-se</button>
+              </div>
 
-                 <div class="line"></div>
-                 
-                 <div class="media-options">
-                    <a href="#" class="field facebook">
-                        <i class='bx bxl-facebook facebook-icon'></i>
-                        <span>Login com Facebook</span>
-                    </a> 
-                 </div>
-                 
-                 <div class="media-options">
-                    <a href="#" class="field google">
-                        <img src="img/google-icon.png" alt="logo do google" class="google-img">
-                        <span>Login com Google</span>
-                    </a> 
-                 </div>
+              <div class="form-link">
+                <span
+                  >Já tem uma conta?
+                  <a href="log_cli_emilio.html" class="signup-link"
+                    >Login</a
+                  ></span
+                >
+              </div>
+            </form>
+          </div>
 
-                 
+          <div class="line"></div>
 
-            </div>
+          <div class="media-options">
+            <a href="#" class="field facebook">
+              <i class="bx bxl-facebook facebook-icon"></i>
+              <span>Login com Facebook</span>
+            </a>
+          </div>
 
-        </section>
-
+          <div class="media-options">
+            <a href="#" class="field google">
+              <img
+                src="img/google-icon.png"
+                alt="logo do google"
+                class="google-img"
+              />
+              <span>Login com Google</span>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
-
-
-
-
-
 
     <!-- <div class="titulo">
             <h1>Cadastro de Clientes</h1>
@@ -178,13 +189,18 @@
                        
             </fieldset>
         </form> -->
-
-
-    <!-- <footer>
-        <p>Estacione com a gente e pare melhor!</p>
-    </footer> -->
-</body>
-
-
-
+    <footer class="footer">
+      <img src="./img/background-index.png" alt="image" />
+      <div class="footer-text">
+        <p>
+          O Delivery Estacionamento é um projeto com desenvolvimento em HTML e
+          CSS.
+        </p>
+        <p>
+          Criado pela equipe 04, do projeto integrador da Proz. Formado por
+          Erick,Emilio,Felipe, Helen, João.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
