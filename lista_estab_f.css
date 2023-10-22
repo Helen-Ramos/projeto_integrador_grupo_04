@@ -7,13 +7,45 @@ body{
     background-color: none;
     font-family: 'Times New Roman', Times, serif;
 }
-header{
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Times New Roman;
+  }
+  
+  
+  .header {
+    width: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color:cadetblue;
-    overflow: hidden;
-}
+    align-items: center;
+    border-bottom: solid 2px black;
+    background-image: url(../img/3.png);
+  
+  }
+  
+  
+  header ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(158, 245, 193);
+    border: solid 1.5px mediumspringgreen;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgba(0, 128, 128);
+  
+  }
+  
+  #cadestab{
+    display: none;
+  }
+  
+  header ul li {
+    list-style-type: none;
+  }
+  
 div.botao{
     background: rgb(0, 128, 128);
     color: #f1f1f1;
@@ -40,7 +72,7 @@ nav li {
     font-family: 'Times New Roman', Times, serif;
     position: relative;
 }
-main{
+.divmenu{
     display: flex;
     justify-content: center;
     margin: 10rem 5rem 10rem 5rem ;
