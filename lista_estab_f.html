@@ -6,40 +6,32 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style_h.css"/>
-        <title>Lista de Estacionamento</title>
+        <link rel="stylesheet" href="css/lista_estab_f.css"/>
+        <title>Lista de Estacionamentos</title>
 </head>
 <header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas de Estacionamentos</title>
-    <link rel="stylesheet" href="lista_estab_f.css">
     <img src="./img/logo.png" alt="logo_estacionamento_delivery" />
-    <nav>
-        <ul class="menuhorizontal">
-            <input type="button" value="Cadastro">
-            <input type="button" value="Sobre Nós">
-            <input type="button" value="Fale Conosco">
-            <input type="button" value="Cadastro">
-        </ul>
-        </nav>
-        <div class="botao">
-        <form>
-            Login:
-            <input type="text" name="login" size=10><br>
-            Senha:
-            <input type="password" name="senha" size=10>
-            <button type="submit">Entrar</button>
-        </div>
-        </form>
-</header>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+        <a id="btn-home" href="sobre_h.html">Sobre Nós</a>
+        <a href="cad_cli_emilio.html">Cadastro Cliente</a>
+        <a href="cadestab_j.html">Cadastro Estabelecimentos</a>
+      </li>
+    </ul>
+  </header>
 <body>
-    <h1> Lista de Estacionamentos</h1>
+    <div class="titulo">
+    <p>
+    <h1> Lista de Estacionamentos</h1> 
+    </p>
+    </div>
+
     <div class="box-busca">
         <div class="search-box">
             
             <form method="post" action="#">
-                <input type="text" class="search-box-input" name="busca" placeholder="Busque o Estacionamento mais próximo">
+                <input type="text" class="search-box-input" name="busca" placeholder="Pesquise o estacionamento">
                 <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
             
             </form>
@@ -48,25 +40,22 @@
     
     </div><!--Box Busca-->
     <div class="mapa">
-    <aside>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14635.587016310441!2d-46.79275540367424!3d-23.500228022933516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sesttacionamentos!5e0!3m2!1spt-BR!2sbr!4v1697920754875!5m2!1spt-BR!2sbr" width="1150" height="450" style="border:300;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14635.587016310441!2d-46.79275540367424!3d-23.500228022933516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sesttacionamentos!5e0!3m2!1spt-BR!2sbr!4v1697920754875!5m2!1spt-BR!2sbr" width="1200" height="450" style="border:200;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <form method="post"></form>
-    </aside>
     </div>
     <div>
 </body>
-<footer>
-    <div class="contatos-footer">
-        <a href="#" class="support">Fale Conosco</a>
-        <a href="#" class="face">Facebook</a>
-        <a href="#" class="tweet">Twitter</a>
-        <a href="#" class="Instagram">Instagram</a>
+<footer class="footer">
+    <img src="./img/background-index.png" alt="image" />
+    <div class="footer-text">
+      <p>
+        O Delivery Estacionamento é um projeto com desenvolvimento em HTML e
+        CSS.
+      </p>
+      <p>
+        Criado pela equipe 04, do projeto integrador da Proz. Formado por
+        Erick, Emilio, Felipe, Helen, João.
+      </p>
     </div>
-
-    <div>
-    <p>O Delivery Estacionamento é um projeto com desenvolvimento em HTML.</p>
-    <p>Criado pela equipe 04, do projeto integrador da Proz. Formado por Erick, Hellen, João, Emilio e Felipe.</p>
-    </div>
-
-</footer>
+  </footer>
 </html>
