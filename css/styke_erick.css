@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Times New Roman;
+}
+
+.header {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px black;
+    background-image: url(../img/3.png);
+  
+}
+
+header ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(158, 245, 193);
+  border: solid 1.5px mediumspringgreen;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: rgba(0, 128, 128);
+
+}
+
+header ul li {
+  list-style-type: none;
+}
+#bnt-home{
+    display: none;
+}
+
+a:hover {
+  background-color: rgb(30, 189, 210);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+
+main{
+   display: flex;
+   justify-content: center;
+   padding-top: 10rem;
+   padding-bottom: 20rem;
+   background-color: #aaa;
+}
+
+main section{
+    color:rgba(0, 0, 0, 0.719);
+    gap: .5rem;
+    font-size: 32px;
+    text-align: center;
+}
+
+#bnt-pesquisar{
+    background-image: url(./img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: 30px;
+    margin-top: 32px;
+    padding: 20px;
+    width: 35vw;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+}
+#bnt-ir{
+    text-decoration: none;
+    background-color: rgb(0,128, 128);
+    border: solid mediumspringgreen 1.5px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#bnt-ir:hover{
+    background-color: rgb(30, 189, 210);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: mediumblue;
+
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 100px;
+  background-color: rgba(0, 128, 128);
+  align-items: center;
+  border-top: solid 2px black;
+}
+
+footer img {
+  width: 100px;
+  height: 80%;
+  opacity: 30%;
+}
+
+.footer-text p{
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-right: 700px;
+}
+
