@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, Times New Roman;
+}
+
+.header {
+
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px black;
+  background-image: url(../img/3.png);
+
+}
+
+
+header ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(158, 245, 193);
+  border: solid 1.5px mediumspringgreen;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: rgba(0, 128, 128);
+
+}
+
+#cadestab{
+  display: none;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: rgb(30, 189, 210);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.galeria {
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.galeria .fotos {
+  width: 500%;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.galeria .fotos img {
+  width: 19.8%;
+}
+
+@keyframes animacao {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -400%;
+  }
+}
+
+.linha {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.mapa {
+  background-color: #aaa;
+  
+}
+
+
+iframe {
+  width: 600px;
+  height: 300px;
+  border: solid 10px black;
+  box-shadow: 3px 3px 8px rgb(31, 31, 30);
+  border-radius: 19px;
+  margin-top: 10px;
+  margin: 10px;
+  
+}
+
+.text{
+  position: sticky;
+  top: 20px;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+
+.coluna {
+  padding: 10px;
+}
+.coluna.aside {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #aaa;
+}
+.coluna.meio {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  display: flex;
+  background-color: #bbb;
+  
+}
+
+.form {
+  padding: 10px;
+}
+
+h2 {
+  color: rgb(99, 99, 11);
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: 21px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.606);
+}
+
+select {
+  margin-top: 5px;
+  width: 250px;
+  height: 21px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.606);
+}
+
+button {
+  font-size: 15px;
+  border-radius: 3px;
+  color: rgb(29, 25, 20);
+  height: 40px;
+  width: 70px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+button:hover {
+  background-color: rgb(30, 189, 210);
+  color: mediumblue;
+}
+
+.banner {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: rgba(0, 128, 128);
+  margin-bottom: 5px;
+  border-radius: 10px;
+  height: 70px;
+  color: aliceblue;
+}
+aside div {
+  position: sticky;
+  top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 100px;
+  background-color: rgba(0, 128, 128);
+  align-items: center;
+  border-top: solid 2px black;
+  
+}
+
+footer img {
+  width: 100px;
+  height: 80%;
+  opacity: 30%;
+}
+
+.footer-text p{
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-right: 350px;  
+}
+
