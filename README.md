@@ -75,5 +75,8 @@ No encontro de hoje conseguimos reunir todos, acertamos os últimos detalhes. Ma
 ---------------------------------
 <h2>Data 23/10/2023<br>
 Conseguimos resolver os incidentes, ajustamos todas as páginas novamente para a entrega da Sprint III.
+<h2>Data 24/10/2023<br>
+Inclusão do link de "cad_estab"git add nas paginas do site, alteração do titulo pagina home de "pagina modelo" para "Delivery Estacionamento", padronização do nome do arquivo css da pagina "lista-estab.html" (renomeado e colocado na pasta CSS)."
+
 
 
