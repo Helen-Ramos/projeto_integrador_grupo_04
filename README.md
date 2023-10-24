@@ -66,7 +66,14 @@ Erick, João, Helen, Emilio.<br>
 No nosso encontro de hoje, mostramos nossas páginas estilizadas com CSS, quase todas finalizadas.<br>
 Nosso próximo encontro será sábado, 21/10 para todos participarem e fazermos os ajustes finais, <br>
 linkar e subir para o GitHub.<br>
-
-
+---------------------------------
+<h2>Data 20/10/2023<br>
+Finalizamos 3 páginas e linkamos, tudo ok.
+---------------------------------
+<h2>Data 21/10/2023<br>
+No encontro de hoje conseguimos reunir todos, acertamos os últimos detalhes. Mas ocorreu uns incidentes no GitHub. 
+---------------------------------
+<h2>Data 23/10/2023<br>
+Conseguimos resolver os incidentes, ajustamos todas as páginas novamente para a entrega da Sprint III.
 
 
