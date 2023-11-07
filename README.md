@@ -77,7 +77,17 @@ No encontro de hoje conseguimos reunir todos, acertamos os últimos detalhes. Ma
 Conseguimos resolver os incidentes, ajustamos todas as páginas novamente para a entrega da Sprint III.
 ---------------------------------
 <h2>Data 24/10/2023<br>
-Inclusão do link de "cad_estab"git add nas paginas do site, alteração do titulo pagina home de "pagina modelo" para "Delivery Estacionamento", padronização do nome do arquivo css da pagina "lista-estab.html" (renomeado e colocado na pasta CSS)."
+Inclusão do link de "cad_estab"git add nas paginas do site, alteração do titulo pagina home de "pagina modelo" para "Delivery Estacionamento", padronização do nome do arquivo css da pagina "lista-estab.html" (renomeado e colocado na pasta CSS)."<br>
+---------------------------------
+<h2>Data 31/10/2023<br>
+Nos reunimos um pouco antes da aula, para alinhar os próximos encontros.
+---------------------------------
+<h2>Data 06/11/2023<br>
+João, Erick e Helen nos reunimos para verificar como está o projeto para a entrega da Sprint IV. O que conseguimos fazer e o que falta ainda. Durante esta semana o que conseguirmos fazer, colocaremos no grupo de whastapp, e no próximo sábado iremos nos reunir para mostrar o que foi feito em cada página e fazer os ajustes finais.<br>
+---------------------------------
+
+---------------------------------
+
 
 
 
