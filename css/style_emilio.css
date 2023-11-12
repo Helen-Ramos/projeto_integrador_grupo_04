@@ -84,6 +84,11 @@ form {
    
 }
 
+.field input.sucesso input{
+    border:10px solid #237a45;
+}
+
+
 .field input,
 .field button {
     height: 100%;

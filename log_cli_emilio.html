@@ -10,6 +10,7 @@
     <link rel="icon" href="#">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style_emilio.css" />
+    <script src="./JavaScript/log_cli_emilio.js" defer></script>
     <title>Login</title>
 </head>
 
@@ -35,13 +36,14 @@
 
                     <h1>Login</h1>
 
-                    <form action="#">
+                    <form id="form">
+                        
                         <div class="field input-field">
-                            <input type="email" placeholder="Email" class="input" required>
+                             <input type="email" placeholder="Digite um email válido" class="input required" id="email">
                         </div>
 
                         <div class="field input-field">
-                            <input type="password" placeholder="Senha" class="password">
+                            <input type="password" placeholder="Senha" class="password required" id="password">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
 
@@ -50,7 +52,7 @@
                         </div>
 
                         <div class="field button-field">
-                            <button>Login</button>
+                            <button type="submit" id="login">Login</button>
                         </div>
 
                         <div class="form-link">
