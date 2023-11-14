@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/stylejoao.css" />
+    <script src="./js/cadestab_j.js" defer></script>
     <title>Projeto Integrador G-04</title>
   </head>
   <body>
@@ -37,55 +38,71 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-		<p class="text">
-			O estacionamento é um instrumento fundamental das políticas urbanas e de mobilidade que apresenta uma enorme complexidade devido às diferentes dinâmicas associadas quer à sua localização (em diferentes sectores e áreas urbanas das cidades, de usos diferenciados - zonas comerciais e de serviços, zonas residenciais).
-
-			Esta diversidade de situações implica a necessidade de implementação de políticas diferenciadas de estacionamento.
-			
-			O estacionamento é uma componente fundamental de qualquer política de mobilidade devido à sua relação direta com a acessibilidade, a utilização do espaço público e principalmente, enquanto elemento regulador desempenha, igualmente, um papel importante na qualidade ambiental, uma vez que permite induzir comportamentos mais sustentáveis.
-		  </p>
+        <p class="text">
+          O estacionamento é um instrumento fundamental das políticas urbanas e
+          de mobilidade que apresenta uma enorme complexidade devido às
+          diferentes dinâmicas associadas quer à sua localização (em diferentes
+          sectores e áreas urbanas das cidades, de usos diferenciados - zonas
+          comerciais e de serviços, zonas residenciais). Esta diversidade de
+          situações implica a necessidade de implementação de políticas
+          diferenciadas de estacionamento. O estacionamento é uma componente
+          fundamental de qualquer política de mobilidade devido à sua relação
+          direta com a acessibilidade, a utilização do espaço público e
+          principalmente, enquanto elemento regulador desempenha, igualmente, um
+          papel importante na qualidade ambiental, uma vez que permite induzir
+          comportamentos mais sustentáveis.
+        </p>
       </div>
       <div class="coluna meio">
         <div class="form">
-          <h2>Formulário de Cadastro</h2>
-          <form action=""></form>
+        <h2>Formulário de Cadastro</h2>
+        <form action="">
           <label for="nome">Digite o nome da empresa: *</label>
-          <p><input type="text" name="input" id="nome" /></p>
+          <input type="text" name="input" id="nome" />
+          <p id="nome-helper" class="helper-text">Mensagem de ajuda</p>
+
           <label for="email">Digite seu E-mail: *</label>
-          <p><input type="email" name="input" id="email" /></p>
+          <input type="email" name="input" id="email" />
+          <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+
           <label for="endereco">Digite endereço: *</label>
-          <p><input type="text" name="input" id="endereco" /></p>
+          <input type="text" name="input" id="endereco" />
+          <p id="endereco-helper" class="helper-text">Mensagem de ajuda</p>
           <label for="numero">Digite seu número: * </label>
-          <p><input type="text" name="input" id="numero" /></p>
+          <input type="text" name="input" id="numero" />
+          <p id="numero-helper" class="helper-text">Mensagem de ajuda</p>
           <label for="bairro">Digite o bairro: *</label>
-          <p><input type="text" name="input" id="bairro" /></p>
+          <input type="text" name="input" id="bairro" />
+          <p id="bairro-helper" class="helper-text">Mensagem de ajuda</p>
           <label for="cidade">Digite o nome da cidade: *</label>
-          <p><input type="text" name="input" id="cidade" /></p>
-          <label for="email">Selecione seu estado: *</label>
-          <p>
-            <select name="estado" id="estado">
-              <option value="selecione">Selecione</option>
-              <option value="saopaulo">São Paulo</option>
-              <option value="riodejaneiro">Rio de Janeiro</option>
-              <option value="ceara">Ceará</option>
-              <option value="pernambuco">Pernambuco</option>
-              <option value="baiha">Bahia</option>
-              <option value="minasgerais">Minas Gerais</option></select
-            ><br />
-            <button type="submit">Enviar</button>
-          </p>
-        </div>
+          <input type="text" name="input" id="cidade" />
+          <p id="cidade-helper" class="helper-text">Mensagem de ajuda</p>
+
+          <select name="estado" id="estado">
+            <option value="selecione">Selecione</option>
+            <option value="saopaulo">São Paulo</option>
+            <option value="riodejaneiro">Rio de Janeiro</option>
+            <option value="ceara">Ceará</option>
+            <option value="pernambuco">Pernambuco</option>
+            <option value="baiha">Bahia</option>
+            <option value="minasgerais">Minas Gerais</option>
+          </select>
+
+          <button type="submit">Enviar</button>
+        </form>
       </div>
+      </div>
+
       <aside class="coluna aside">
         <div>
           <section class="galeria">
             <div class="fotos">
-              <img src="./img/1.png" alt="image1">
-              <img src="./img/2.png" alt="image2">
-              <img src="./img/3.png" alt="image3">
-              <img src="./img/4.png" alt="image4">
-              <img src="./img/5.png" alt="image5">
-              <img src="./img/1.png" alt="image1">
+              <img src="./img/1.png" alt="image1" />
+              <img src="./img/2.png" alt="image2" />
+              <img src="./img/3.png" alt="image3" />
+              <img src="./img/4.png" alt="image4" />
+              <img src="./img/5.png" alt="image5" />
+              <img src="./img/1.png" alt="image1" />
             </div>
           </section>
           <div class="banner">
@@ -103,6 +120,7 @@
           <div class="banner">
             <p>Banner Publicitário 5</p>
           </div>
+        </div>
       </aside>
     </main>
 

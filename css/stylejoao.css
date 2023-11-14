@@ -144,10 +144,12 @@ iframe {
 
 .form {
   padding: 10px;
+
 }
 
 h2 {
   color: rgb(99, 99, 11);
+  margin-bottom: 10px;
 }
 
 label {
@@ -224,5 +226,39 @@ footer img {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-right: 350px;  
+}
+
+/* Dinamicos */
+
+.helper-text {
+  display: none;
+  font-size: .8rem;
+  color: darkred;
+}
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  top: 80px;
+  color: #DFDFDF;
+  font-size: .65rem;
+  display: block;
+  background-color: #202020;
+  text-align: right;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #CCBBBB;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #BBCCBB;
+  border: solid 2px #206620;
+  color: #206620;
+}
+
+.visible {
+  display: block;
 }
 
