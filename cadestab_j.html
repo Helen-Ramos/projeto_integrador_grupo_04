@@ -6,11 +6,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=yes"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/stylejoao.css" />
-    <script src="./js/cadestab_j.js" defer></script>
+    <script src="./cadestab_j.js" defer></script>
     <title>Projeto Integrador G-04</title>
   </head>
   <body>
@@ -23,7 +26,9 @@
             <a href="sobre_h.html">Sobre Nós</a>
             <a href="lista_estab_f.html">Lista Estacionamentos</a>
             <a href="cad_cli_emilio.html">Cadastro Cliente</a>
-            <a id="cadestab" href="cadestab_j.html">Cadastro Estabelecimentos</a>
+            <a id="cadestab" href="cadestab_j.html"
+              >Cadastro Estabelecimentos</a
+            >
             <a href="log_cli_emilio.html">Login</a>
           </li>
         </ul>
@@ -40,57 +45,60 @@
         ></iframe>
         <p class="text">
           O estacionamento é um instrumento fundamental das políticas urbanas e
-          de mobilidade que apresenta uma enorme complexidade devido às
+          de mobilendereco que apresenta uma enorme complexendereco devido às
           diferentes dinâmicas associadas quer à sua localização (em diferentes
-          sectores e áreas urbanas das cidades, de usos diferenciados - zonas
-          comerciais e de serviços, zonas residenciais). Esta diversidade de
-          situações implica a necessidade de implementação de políticas
+          sectores e áreas urbanas das cenderecos, de usos diferenciados - zonas
+          comerciais e de serviços, zonas residenciais). Esta diversendereco de
+          situações implica a necessendereco de implementação de políticas
           diferenciadas de estacionamento. O estacionamento é uma componente
-          fundamental de qualquer política de mobilidade devido à sua relação
-          direta com a acessibilidade, a utilização do espaço público e
+          fundamental de qualquer política de mobilendereco devido à sua relação
+          direta com a acessibilendereco, a utilização do espaço público e
           principalmente, enquanto elemento regulador desempenha, igualmente, um
-          papel importante na qualidade ambiental, uma vez que permite induzir
+          papel importante na qualendereco ambiental, uma vez que permite induzir
           comportamentos mais sustentáveis.
         </p>
       </div>
       <div class="coluna meio">
         <div class="form">
-        <h2>Formulário de Cadastro</h2>
-        <form action="">
-          <label for="nome">Digite o nome da empresa: *</label>
-          <input type="text" name="input" id="nome" />
-          <p id="nome-helper" class="helper-text">Mensagem de ajuda</p>
-
-          <label for="email">Digite seu E-mail: *</label>
-          <input type="email" name="input" id="email" />
-          <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
-
-          <label for="endereco">Digite endereço: *</label>
-          <input type="text" name="input" id="endereco" />
-          <p id="endereco-helper" class="helper-text">Mensagem de ajuda</p>
-          <label for="numero">Digite seu número: * </label>
-          <input type="text" name="input" id="numero" />
-          <p id="numero-helper" class="helper-text">Mensagem de ajuda</p>
-          <label for="bairro">Digite o bairro: *</label>
-          <input type="text" name="input" id="bairro" />
-          <p id="bairro-helper" class="helper-text">Mensagem de ajuda</p>
-          <label for="cidade">Digite o nome da cidade: *</label>
-          <input type="text" name="input" id="cidade" />
-          <p id="cidade-helper" class="helper-text">Mensagem de ajuda</p>
-
-          <select name="estado" id="estado">
-            <option value="selecione">Selecione</option>
-            <option value="saopaulo">São Paulo</option>
-            <option value="riodejaneiro">Rio de Janeiro</option>
-            <option value="ceara">Ceará</option>
-            <option value="pernambuco">Pernambuco</option>
-            <option value="baiha">Bahia</option>
-            <option value="minasgerais">Minas Gerais</option>
-          </select>
-
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
+          <h2>Formulário de Cadastro</h2>
+          <form action="">
+            <label for="nome">*Nome da empresa:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o nome da empresa">
+            <p id="nome-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="email">*E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="endereco">*Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+            <p id="endereco-helper" class="helper-text">Mensagem de ajuda</p>
+            
+            <label for="numero">*Número:</label>
+            <input type="text" id="numero" name="numero" placeholder="Digite o número">
+            <p id="numero-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="bairro">*Bairro:</label>
+            <input type="text" id="bairro" name="bairro" placeholder="Digite o nome do bairro">
+            <p id="bairro-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="cidade">*Cidade:</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Digite o nome do cidade">
+            <p id="cidade-helper" class="helper-text">Mensagem de ajuda</p>
+            
+            <p>*Estado</p>
+            <select name="estado" id="estado">
+              <option value="selecione">Selecione</option>
+              <option value="saopaulo">São Paulo</option>
+              <option value="riodejaneiro">Rio de Janeiro</option>
+              <option value="ceara">Ceará</option>
+              <option value="pernambuco">Pernambuco</option>
+              <option value="bahia">Bahia</option>
+              <option value="minasgerais">Minas Gerais</option>
+            </select>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
       </div>
 
       <aside class="coluna aside">
