@@ -85,8 +85,14 @@ Nos reunimos um pouco antes da aula, para alinhar os próximos encontros.
 <h2>Data 06/11/2023<br>
 João, Erick e Helen nos reunimos para verificar como está o projeto para a entrega da Sprint IV. O que conseguimos fazer e o que falta ainda. Durante esta semana o que conseguirmos fazer, colocaremos no grupo de whastapp, e no próximo sábado iremos nos reunir para mostrar o que foi feito em cada página e fazer os ajustes finais.<br>
 ---------------------------------
-
+<h2>Data 11/11/2023<br>
+Nos reunimos para mostrar como está o projeto com a inclusão do JavaScript, validação dos formulários.<br>
+Tiramos dúvidas gerais e no reuniremos na p´roxima segunda, 13/11, para sanar as dúvidas finais<br>
 ---------------------------------
+<h2>Data 13/11/2023<br>
+No encontro de hoje conseguimos fazer as validações no formulário e subimos para o Git Hub.<br>
+---------------------------------
+
 
 
 
