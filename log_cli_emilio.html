@@ -39,11 +39,14 @@
                     <form id="form">
                         
                         <div class="field input-field">
-                             <input type="email" placeholder="Digite um email válido" class="input required" id="email">
+                            <span class="span-required">Digite um email válido</span> 
+                            <input type="email" placeholder="Email" class="inputs required" id = 'email' oninput="emailValidate()" >
+                             
                         </div>
 
                         <div class="field input-field">
-                            <input type="password" placeholder="Senha" class="password required" id="password">
+                            <span class="span-required">Digite uma senha com no minimo 8 caracteres</span>
+                            <input type="password" placeholder="Senha" class="inputs required" id = 'senha' oninput = 'mainPasswordValidate()'>
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
 
