@@ -92,7 +92,15 @@ Tiramos dúvidas gerais e no reuniremos na p´roxima segunda, 13/11, para sanar 
 <h2>Data 13/11/2023<br>
 No encontro de hoje conseguimos fazer as validações no formulário e subimos para o Git Hub.<br>
 ---------------------------------
-
+<h2>Data 18/11/2023<br>
+No encontro de hoje conversamos sobre quais ferramentas usar, quais tabelas poderão ser criadas para o banco de dados, etc.<br>
+---------------------------------
+<h2>Data 20/11/2023<br>
+Sprint V quase toda pronta. Nos encontramos para mostrar como está o projeto. E iremos nos encontrar na próxima quarta-feira para finalizar e subir o projeto para o Git Hub.<br>
+---------------------------------
+<h2>Data 22/11/2023<br>
+No encontro de hoje foi mostrado como está o Banco de Dados, com as tabelas e as suas funcionalidades, o modelo do DER. Tudo ok para a apresentação amanhã.<br>
+---------------------------------
 
 
 
