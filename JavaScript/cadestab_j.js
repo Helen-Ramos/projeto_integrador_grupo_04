@@ -1,3 +1,14 @@
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+
+}
+
+btnMobile.addEventListener('click' , toggleMenu);
+
+
 // ---------- FUNÇÕES GERAIS -------------- //
 function togglePopup(input, label) {
   // Mostrar popup de campo obrigatório

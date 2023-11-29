@@ -1,3 +1,13 @@
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+
+}
+
+btnMobile.addEventListener('click' , toggleMenu);
+
 const buscarBtn = document.getElementById('bnt-ir');
 const endereco = document.getElementById('bnt-pesquisar');
 

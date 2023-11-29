@@ -1,3 +1,14 @@
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+
+}
+
+btnMobile.addEventListener('click' , toggleMenu);
+
+
 const form = document.getElementById('form');
 const campos = document.querySelectorAll('.required');
 const span = document.querySelectorAll('.span-required');
