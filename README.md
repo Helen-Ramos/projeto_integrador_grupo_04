@@ -101,7 +101,13 @@ Sprint V quase toda pronta. Nos encontramos para mostrar como está o projeto. E
 <h2>Data 22/11/2023<br>
 No encontro de hoje foi mostrado como está o Banco de Dados, com as tabelas e as suas funcionalidades, o modelo do DER. Tudo ok para a apresentação amanhã.<br>
 ---------------------------------
-
+<h2>Data 25/11/2023<br>
+Hoje nos reunimos para definir como será nossa apresentação final. Iremos fazer slides e vídeo.<br>
+---------------------------------
+<h2>Data 28/11/2023<br>
+Conseguimos mostrar como ficou nossa apresentação antes da aula (simulação).<br>
+Vamos acrescentar mais um slide e incluir o link do vídeo neste slide.<br> 
+---------------------------------
 
 
 
