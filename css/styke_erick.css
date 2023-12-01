@@ -77,7 +77,8 @@ main section{
     font-size: 22px;
     text-align: center;
 }
-#bnt-ir{
+
+#btn-ir{
     text-decoration: none;
     background-color: rgb(0,128, 128);
     border: solid mediumspringgreen 1.5px;
@@ -88,7 +89,7 @@ main section{
     padding: 20px;
 }
 
-#bnt-ir:hover{
+#btn-ir:hover{
     background-color: rgb(30, 189, 210);
     border-radius: 10px;
     padding: 20px;
@@ -127,7 +128,7 @@ footer img {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   #btn-mobile{
       display: block;
       padding: .5rem 1rem;
@@ -173,6 +174,10 @@ footer img {
     width: 80%;
     display: flex;
     margin: 30px auto;
+  }
+
+  #btn-ir{
+    font-size: 20px;
   }
 
   .footer-text p{
